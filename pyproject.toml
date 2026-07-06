@@ -1,0 +1,22 @@
+[project]
+name = "pocket-creatures"
+version = "1.0.0"
+description = "A terminal-based virtual pet game featuring dragons, slimes, and more."
+authors = [
+    { name = "Robin", email = "agenericfirstname@outlook.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+# No dependencies required for now
+dependencies = []
+
+# Optional: If you want a command-line entry point later
+# Uncomment this to allow users to run `pocket-creatures` from terminal
+# [project.scripts]
+# pocket-creatures = "pocket_creatures.main:main"
+
+[project.urls]
+homepage = "https://github.com/CaptainDreadbeard/pocket_creatures"
+repository = "https://github.com/CaptainDreadbeard/pocket_creatures"
